@@ -1,0 +1,28 @@
+Diagram:
+Datasource - S3 bucket - Databricks (Apache Spark for Transformation, SQL for queries, Data Visualization using any preferred tool)
+
+Apache Spark
+
+A unified computing engine and a set of libraries FOR parallel data processinga across multiple computer clusters (cluster = a group of computers)
+
+A group of computers is not enough to process large data, you need a framework that coordinates and organizes the cluster to work together and that is Spark
+
+consists of driver process and a set of executor processes 
+
+driver = manager
+executor = does the leg work / computations 
+
+------
+Databricks: is built upon Spark and we can utilize to run it.
+
+Steps
+
+1. Upload the datasets into an S3 bucket
+
+2. Open Databricks
+
+3. Click on Compute, create an engine 
+
+4. create a new notebook
+
+5. Code is available in ipynb
